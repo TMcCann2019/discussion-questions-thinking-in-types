@@ -58,12 +58,12 @@ Reading this function signature out loud, you would say
 
 ### For practice, add the function signature to the functions in the table.
 
-| Function      | types of inputs | type of output | function signature                                  |
+| Function | types of inputs | type of output | function signature                                  |
 | ------------- | --------------- | -------------- | --------------------------------------------------- |
-| `getName`     |                 |                |                                                     |
-| `getAge`      |                 |                |                                                     |
-| `makePerson`  |                 |                |                                                     |
-| `birthday`    |                 |                |                                                     |
+| `getName`     |  Person  |   person.name   |  getName(person): person.name    |
+| `getAge`      |  person |   person.age    |  getAge(person):person.age      |
+| `makePerson`  |name, age | object| makePerson(name, age):makes an object with a keys named name and age and a values named name and age    |
+| `birthday`    |   Person    |  person     |  brithday(person): person          |
 | `getDistance` | _Point, Point_  | _number_       | _getDistance(pointA: Point, pointB: Point): number_ |
 
 
