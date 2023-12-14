@@ -60,10 +60,10 @@ Reading this function signature out loud, you would say
 
 | Function | types of inputs | type of output | function signature                                  |
 | ------------- | --------------- | -------------- | --------------------------------------------------- |
-| `getName`     |  Person  |   person.name   |  getName(person): person.name    |
-| `getAge`      |  person |   person.age    |  getAge(person):person.age      |
+| `getName`     |  Person  |   String   |  getName(person): a string of a persons name  |
+| `getAge`      |  person |   Number    |  getAge(person): number      |
 | `makePerson`  |name, age | object| makePerson(name, age):makes an object with a keys named name and age and a values named name and age    |
-| `birthday`    |   Person    |  person     |  brithday(person): person          |
+| `birthday`    |   Person  |  String  |  brithday(person): string of a persons name          |
 | `getDistance` | _Point, Point_  | _number_       | _getDistance(pointA: Point, pointB: Point): number_ |
 
 
