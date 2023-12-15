@@ -63,7 +63,7 @@ Reading this function signature out loud, you would say
 | `getName`     |  Person  |   String   |  getName(person): a string of a persons name  |
 | `getAge`      |  person |   Number    |  getAge(person): number      |
 | `makePerson`  | name, age | object| makePerson(name, age):makes an object with a keys named name and age and a values named name and age    |
-| `birthday`    |   Person and age  |  String  |  brithday(person): string of a persons name          |
+| `birthday`    |   Person and age  |  person  |  brithday(person): string of a persons name and destructively updates the object      |
 | `getDistance` | _Point, Point_  | _number_       | _getDistance(pointA: Point, pointB: Point): number_ |
 
 
